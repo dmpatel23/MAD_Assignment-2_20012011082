@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/Kilometers"
-        android:layout_width="256dp"
+        android:layout_width="300dp"
         android:layout_height="64dp"
         android:hint="@string/distance_in_kilometers"
         android:importantForAutofill="no"
@@ -24,7 +24,7 @@
 
     <EditText
         android:id="@+id/Mileage"
-        android:layout_width="256dp"
+        android:layout_width="300dp"
         android:layout_height="64dp"
         android:hint="@string/mileage_in_kilometers"
         android:importantForAutofill="no"
@@ -40,7 +40,7 @@
 
     <EditText
         android:id="@+id/Price"
-        android:layout_width="256dp"
+        android:layout_width="300dp"
         android:layout_height="64dp"
         android:hint="@string/petrol_price_in_rupee"
         android:importantForAutofill="no"
@@ -56,7 +56,7 @@
 
     <Button
         android:id="@+id/Calculate"
-        android:layout_width="256dp"
+        android:layout_width="200dp"
         android:layout_height="64dp"
         android:text="@string/calculate_fare"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -70,7 +70,7 @@
 
     <TextView
         android:id="@+id/Fare"
-        android:layout_width="128dp"
+        android:layout_width="200dp"
         android:layout_height="32dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/Calculate"

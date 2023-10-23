@@ -1,12 +1,13 @@
 package com.example.mad_assignment_2_20012011082
 
-import android.annotation.SuppressLint
+
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import java.text.NumberFormat
+import java.util.Locale;
 
 class Second : AppCompatActivity() {
 
@@ -43,7 +44,7 @@ class Second : AppCompatActivity() {
             (distance.toBigDecimal().div(average.toBigDecimal())) * petrol.toBigDecimal()
         val fare = myExpense + myExpense
 
-        val formattedFare = NumberFormat.getCurrencyInstance().format(fare)
+        val formattedFare = NumberFormat.getCurrencyInstance(Locale("en", "IN")).format(fare)
         fareTextView.text = getString(R.string.Total, formattedFare)
     }
 }
